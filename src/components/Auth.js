@@ -5,7 +5,7 @@ const Auth = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [newUser, setNewUser] = false;
+  const [newUser, setNewUser] = useState(false)
 
     return (
         <div>
