@@ -10,7 +10,6 @@ CREATE TABLE users(
 
 CREATE TABLE teachers(
     teacher_id SERIAL PRIMARY KEY,
-    username VARCHAR(50),
     email VARCHAR(50),
     password VARCHAR(50),
     first_name VARCHAR(50),
