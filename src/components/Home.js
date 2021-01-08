@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
-  const history = useHistory();
+  const [ history] = useHistory();
   return (
     <>
       <div className="home--header">
