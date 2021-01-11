@@ -44,9 +44,9 @@ module.exports = {
     ]);
 
     const mailOptions = {
-      from: "",
+      from: "keatonbraith@gmail.com",
       to: email,
-      subject: "Welcome to YouTube Yelp",
+      subject: "Welcome to Our Site",
       text: `Welcome ${first_name}!, We're excited to be a part of your journey to finding more happiness in your life. Here is your profile info! First Name: ${first_name} Last Name: ${last_name} Username: ${username}`,
       html: `<b>Welcome ${first_name}! </b><br> We're excited to be a part of your journey to finding more happiness in your life. Here is your profile info! </b><br> First Name: ${first_name} </b><br> Last Name: ${last_name} </b><br> Username: ${username} </b>`,
     };
