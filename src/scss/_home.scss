@@ -1,0 +1,18 @@
+.home--header {
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 65vh;
+  color: white;
+}
+
+.home--categories {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  width: 100vw;
+  height: 150vh;
+  background-color: rgb(230, 230, 230);
+}
