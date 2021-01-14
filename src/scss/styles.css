@@ -1,0 +1,141 @@
+.home--header {
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 65vh;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.home--header h3 {
+  padding-bottom: 20px;
+}
+
+.home--categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  font-size: 32px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e6e6e6;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  background-image: url(https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG9ncmFwaHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 40%;
+}
+
+body {
+  background-color: black;
+}
+
+.auth__page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  width: 50vw;
+  height: 50vh;
+  background: linear-gradient(to right, #002333 50%, #bebebe 50%);
+  border-radius: 5px;
+  margin-top: 50px;
+  color: white !important;
+}
+.auth__page .auth__page__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.auth__page .auth__page__content .auth__page__content__child {
+  color: white;
+  text-align: center;
+}
+.auth__page .auth__page__content .auth__page__content__child .divider {
+  width: 150px;
+  height: 20px;
+  background-color: #36fb71;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.auth__page__login {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+  border: none;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.auth--buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid #647179;
+}
+
+.main--nav {
+  width: 100vw;
+  height: 10vh;
+  background-color: #4A5A65;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.main--footer {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #4A5A65;
+  font-size: 24px;
+}
+
+a {
+  color: white;
+  padding: 15px;
+}
+
+* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
