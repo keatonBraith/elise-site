@@ -1,5 +1,5 @@
 module.exports = {
-    getReviews: (req, res) => {
+    getReviews: async (req, res) => {
         const db = req.app.get("db");
         const {id} = req.params;
         const reviews = await db.Reviews.get_review(id);
