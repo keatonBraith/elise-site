@@ -1,7 +1,10 @@
 
 body {
-    background-color: black;
+    background-image: url(../images/tyler-nix.jpg);
+    background-position-x: center;
+    background-position-y: center;
   }
+  
   .auth__page {
     display: flex;
     justify-content: flex-end;
@@ -11,7 +14,7 @@ body {
     height: 50vh;
     background: linear-gradient(to right, #002333 50%, rgb(190, 190, 190) 50%);
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 150px;
     color: white !important;
   }
     

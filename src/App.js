@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from './components/NavBar';
-import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 import routes from './routes';
+import Footer from './components/Footer';
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
         {routes}
       <Footer />
     </div>
