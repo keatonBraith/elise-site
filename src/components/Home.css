@@ -1,0 +1,35 @@
+.home__page {
+  background-image: url(../images//tyler-nix.jpg);
+  background-position-x: center;
+  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.home__header {
+  margin-top: 100px;
+}
+
+.home__description {
+  margin-top: 20px;
+}
+
+.home__button {
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.home--categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 32px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(230, 230, 230);
+}
