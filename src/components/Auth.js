@@ -1,5 +1,6 @@
 // import axios from "axios";
 import React, { Fragment, useState } from "react";
+import "./Auth.css";
 
 const Auth = () => {
   const [firstName, setFirstName] = useState("");
@@ -56,18 +57,15 @@ const Auth = () => {
         <div className="auth__page">
           <div className="auth__page__content col-md-6">
             <div className="auth__page__content__child">
-              <h2>Welcome to Skill share</h2>
-              <div className="divider">
-              </div>
-                <p>Sign in to get started</p>
+              <h2>Welcome to the Healing Hub</h2>
+              <div className="divider"></div>
+              <p>Sign in to get started</p>
             </div>
-        </div>
+          </div>
           <div className="auth__page__login text-center col-md-6">
-          
             <h1>Login</h1>
             <i class="far fa-envelope"></i>
             <input
-            
               className="text-center"
               onSubmit={onSubmit}
               name="email"
@@ -93,12 +91,18 @@ const Auth = () => {
             </div>
           </div>
         </div>
-
-        
       ) : (
-        <div className="auth--page">
-          <div className="auth--login text-center">
+        <div className="auth__page">
+          <div className="auth__page__content col-md-6">
+            <div className="auth__page__content__child">
+              <h2>Welcome to the Healing Hub</h2>
+              <div className="divider"></div>
+              <p>Sign in to get started</p>
+            </div>
+          </div>
+          <div className="auth__page__login text-center col-md-6">
             <h1>Register</h1>
+            <i class="far fa-envelope"></i>
             <input
               className="text-center"
               onSubmit={onSubmit}
@@ -106,12 +110,12 @@ const Auth = () => {
               type="text"
               value={firstName}
               placeholder="First Name"
-              onChange={(e) => this.changeHandler(e)}
+              onChange={onChange}
             ></input>
-            <input
+              <input
               className="text-center"
               onSubmit={onSubmit}
-              name="lastName"
+              name="email"
               type="text"
               value={lastName}
               placeholder="Last Name"
@@ -121,7 +125,7 @@ const Auth = () => {
               className="text-center"
               onSubmit={onSubmit}
               name="email"
-              type="email"
+              type="text"
               value={email}
               placeholder="Email"
               onChange={onChange}
@@ -136,9 +140,7 @@ const Auth = () => {
               onChange={onChange}
             ></input>
             <div className="auth--buttons">
-              <button className="btn btn-primary" onClick={toggle}>
-                Already A User
-              </button>
+              <button className="btn btn-primary" onClick={toggle}>Already a user?</button>
               <button className="btn btn-primary">Register</button>
             </div>
           </div>
