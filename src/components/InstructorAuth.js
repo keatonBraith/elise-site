@@ -144,7 +144,7 @@ const InstructorAuth = (props) => {
                             onChange={handlePasswordInput}
                             ></input>
                             <div className="auth--buttons">
-                                <button className="btn btn-primary">Login</button>
+                                <button className="btn btn-primary" onClick={login}>Login</button>
                                 <button className="btn btn-primary" onClick={toggle}>Register</button>
                             </div>
                     </div>
@@ -280,7 +280,7 @@ const InstructorAuth = (props) => {
                             ></input>
                             <div className="auth--buttons">
                                 <button className="btn btn-primary" onClick={toggle}>Already a creator?</button>
-                                <button className="btn btn-primary">Register</button>
+                                <button className="btn btn-primary" onClick={register}>Register</button>
                             </div>
                     </div>
                 </div>
