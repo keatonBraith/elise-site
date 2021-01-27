@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { useHistory } from "react-router-dom";
 import { Card, Button, Row, Col } from "react-bootstrap";
 import "./Home.css";
@@ -6,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   const history = useHistory();
   return (
-    <>
+    <Fragment>
       <div className="home__page">
         <h1 className="display-2 home__header">Explore your Creativity.</h1>
         <h3 className="home__description">
@@ -91,7 +91,30 @@ const Home = () => {
           </Row>
         </div>
       </div>
-    </>
+      <div id="home-footer">
+        <a className="footer__link" href="*">
+          HELP
+        </a>
+        <a className="footer__link" href="*">
+          TERMS
+        </a>
+        <a className="footer__link" href="*">
+          PRIVACY
+        </a>
+        <a className="footer__link" href="*">
+          HEALING HUB
+        </a>
+        <a className="footer__link" href="*">
+          CONTACT
+        </a>
+        <a className="footer__link" href="*">
+          ABOUT
+        </a>
+        <a className="footer__link" href="*">
+          PRICING
+        </a>
+      </div>
+    </Fragment>
   );
 };
 

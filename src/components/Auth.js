@@ -54,7 +54,7 @@ const Auth = () => {
   return (
     <Fragment>
       {!newUser ? (
-        <div className="auth__page">
+        <form className="auth__page">
           <div className="auth__page__content col-md-6">
             <div className="auth__page__content__child">
               <h2>Welcome to the Healing Hub</h2>
@@ -90,7 +90,7 @@ const Auth = () => {
               </button>
             </div>
           </div>
-        </div>
+        </form>
       ) : (
         <div className="auth__page">
           <div className="auth__page__content col-md-6">
@@ -112,7 +112,7 @@ const Auth = () => {
               placeholder="First Name"
               onChange={onChange}
             ></input>
-              <input
+            <input
               className="text-center"
               onSubmit={onSubmit}
               name="email"
@@ -140,12 +140,38 @@ const Auth = () => {
               onChange={onChange}
             ></input>
             <div className="auth--buttons">
-              <button className="btn btn-primary" onClick={toggle}>Already a user?</button>
+              <button className="btn btn-primary" onClick={toggle}>
+                Already a user?
+              </button>
               <button className="btn btn-primary">Register</button>
             </div>
           </div>
         </div>
       )}
+
+      <div id="auth-footer">
+        <a className="footer__link" href="*">
+          HELP
+        </a>
+        <a className="footer__link" href="*">
+          TERMS
+        </a>
+        <a className="footer__link" href="*">
+          PRIVACY
+        </a>
+        <a className="footer__link" href="*">
+          HEALING HUB
+        </a>
+        <a className="footer__link" href="*">
+          CONTACT
+        </a>
+        <a className="footer__link" href="*">
+          ABOUT
+        </a>
+        <a className="footer__link" href="*">
+          PRICING
+        </a>
+      </div>
     </Fragment>
   );
 };
