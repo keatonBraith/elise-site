@@ -61,4 +61,28 @@ body {
     outline: none;
     border: 3px solid rgb(100, 113, 121);
   }
+
+  #auth-footer {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #343a40;
+    font-size: 24px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .footer__link {
+    color: white;
+    padding: 15px;
+  }
+  .footer__link:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+
   

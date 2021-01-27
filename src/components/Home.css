@@ -33,3 +33,24 @@
   height: 100vh;
   background-color: rgb(230, 230, 230);
 }
+
+#home-footer {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  font-size: 24px;
+  position: relative;
+  bottom: 0;
+}
+
+.footer__link {
+  color: white;
+  padding: 15px;
+}
+.footer__link:hover {
+  text-decoration: none;
+  color: white;
+}

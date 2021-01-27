@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from './components/Navbar';
 import routes from './routes';
-import Footer from './components/Footer';
 import './App.css';
 
 
@@ -10,7 +9,6 @@ function App() {
     <div className="App">
       <NavBar />
         {routes}
-      <Footer />
     </div>
   );
 }
